@@ -1,0 +1,53 @@
+# Defining the Privacy Policy content for a clinical/utility focus
+privacy_policy_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Attention Timer</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; background-color: #f9f9f9; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: #007AFF; font-size: 24pt; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #333; font-size: 16pt; margin-top: 30px; }
+        p { margin-bottom: 15px; }
+        .highlight { background: #f0f7ff; padding: 15px; border-left: 4px solid #007AFF; margin: 20px 0; border-radius: 4px; }
+        footer { text-align: center; margin-top: 40px; font-size: 10pt; color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p>Last Updated: April 30, 2026</p>
+        
+        <p><strong>Attention Timer</strong> is built to be a private, standalone utility for practicing the Attention Training Technique (ATT). We believe that your focus and mental health data should remain entirely under your control.</p>
+
+        <div class="highlight">
+            <strong>The Core Principle:</strong> This app does not collect, store, or transmit any personal data.
+        </div>
+
+        <h2>1. Data Collection</h2>
+        <p>Attention Timer does not collect any personally identifiable information (PII). We do not require account creation, email registration, or any personal details to use the app.</p>
+
+        <h2>2. Data Storage</h2>
+        <p>All data generated within the app—including your training streaks, session history, and custom timer configurations—is stored locally on your device. This data never leaves your iPhone and is not synced to any external servers.</p>
+
+        <h2>3. Third-Party Services</h2>
+        <p>The app does not use third-party analytics, tracking pixels, or advertising frameworks. Your usage patterns are entirely private to you.</p>
+
+        <h2>4. Data Retention</h2>
+        <p>Since your data is stored locally, it remains on your device as long as the app is installed. If you delete the app, all locally stored session data and settings are permanently removed and cannot be recovered by the developer.</p>
+
+        <h2>5. Contact</h2>
+        <p>If you have any questions regarding this privacy policy, you can contact us at our support email address.</p>
+    </div>
+    <footer>
+        &copy; 2026 Attention Timer. All rights reserved.
+    </footer>
+</body>
+</html>
+"""
+
+with open("privacy_policy.html", "w") as f:
+    f.write(privacy_policy_html)
